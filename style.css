@@ -21,6 +21,7 @@ body {
   line-height: 1.6;
   background-color: #000;
   overflow-x: hidden;
+  cursor: url("./img/capeHero.png"), auto;
 }
 
 .margin-bottom {
@@ -201,6 +202,26 @@ ul li a > span {
   text-align: right;
 }
 
+.para-desc {
+  color: #ccc;
+}
+
+.para-desc span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.conclusion {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+.conclusion h3 {
+  color: #a020f0;
+}
+
 .introduction_container--text {
   text-align: left;
   display: flex;
@@ -246,11 +267,6 @@ ul li a > span {
   border-bottom: 1px solid #fff;
 }
 
-.section-first-stage_container h1 span {
-  font-weight: 400;
-  color: #c86a5b;
-}
-
 .first-text {
   display: flex;
   flex-direction: column;
@@ -268,21 +284,24 @@ ul li a > span {
   color: #92817f;
 }
 
-.first-text h2 {
-  color: #c86a5b;
-  margin-bottom: -2rem;
-}
-
 figcaption {
   text-align: center;
   text-decoration: none;
+  font-style: italic;
   border-radius: 1rem;
   box-shadow: 8px 0px 40px -34px rgba(255, 255, 255, 1);
+}
+
+figcaption > a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .first-text_img-1 {
   border-radius: 1em;
   box-shadow: 8px 0px 40px -34px rgba(255, 255, 255, 1);
+  align-self: center;
+  margin-top: 5rem;
 }
 
 .first-text_img-1 img {
@@ -314,18 +333,18 @@ figcaption {
   gap: 2rem;
 }
 
-.second-text ul li {
-  list-style: circle;
-  margin-left: 1.5rem;
-  color: #92817f;
+.third-text p {
+  color: #fff;
 }
 
-.third-text {
-  color: #92817f;
+.third-text figcaption {
+  display: flex;
+  flex-direction: column;
 }
 
-.third-text h2 {
-  color: #c86a5b;
+.figure-img {
+  display: flex;
+  flex-direction: column;
 }
 
 .third-text ul {
@@ -349,6 +368,15 @@ figcaption {
   display: flex;
 }
 
+.third-text_container p {
+  color: #cccccc;
+}
+
+.third-text_container p span {
+  color: #fff;
+  font-weight: bold;
+}
+
 .third-text_container ul > li {
   list-style: none;
 }
@@ -357,8 +385,12 @@ figcaption {
   width: 100%;
 }
 
-.third-text_container_2 ul > li {
+.third-text_container_2 ul li {
   list-style: none;
+}
+
+.frustration ul > li {
+  list-style-type: "✅ ";
 }
 
 .third-text_container img {
@@ -389,18 +421,8 @@ figcaption {
   border-bottom: 1px solid #fff;
 }
 
-.section-second-stage_container h1 span {
-  font-weight: 400;
-  color: #c86a5b;
-}
-
 .fonts h2 {
   color: #a020f0;
-}
-
-.fonts h2 span {
-  color: #c86a5b;
-  font-weight: 400;
 }
 
 .fonts-text {
@@ -411,22 +433,20 @@ figcaption {
   color: #fff;
 }
 
-.fonts-text2 {
+.fonts-text-one {
   margin-top: 1.5rem;
   color: #fff;
 }
 
-.fonts-text p > a {
-  color: #c86a5b;
-}
-
-.fonts-text figure figcaption > a {
+.fonts-text2 {
+  margin-top: 1.5rem;
   color: #fff;
-  text-decoration: none;
+  display: flex;
+  gap: 4.8rem;
 }
 
-.fonts img {
-  width: 100%;
+.fonts-text2-wrapper {
+  align-self: center;
 }
 
 .colors {
@@ -440,24 +460,11 @@ figcaption {
   align-self: flex-end;
 }
 
-.colors span {
-  color: #c86a5b;
-  font-weight: 400;
-}
-
 .colors-text {
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4.8rem;
-}
-
-.colors-text p > a {
-  color: #c86a5b;
-}
-
-.colors-text figure > figcaption {
-  color: #fff;
 }
 
 .colors img {
@@ -487,10 +494,8 @@ figcaption {
 }
 
 .section-third-stage_container h1 {
-  color: #1e1e1e;
-  background-color: #c86a5b;
-  padding: 1rem;
-  text-align: center;
+  color: #a020f0;
+  border-bottom: 1px solid #fff;
 }
 
 /**************************/
@@ -516,26 +521,12 @@ footer {
   gap: 1.7rem;
 }
 
-.footer-content_icons > a:link,
-.footer-content_icons > a:visited {
-  border: 2px solid #92817f;
-  padding: 1rem 1.25rem;
-  border-radius: 50%;
-}
-
-.footer-content_icons > a:link:hover,
-.footer-content_icons > a:visited:hover {
-  color: #c86a5b;
-  border-color: #c86a5b;
-  transition: all 0.3s ease-in-out;
-}
-
-.footer-content > h1 {
-  color: #c86a5b;
-  font-size: 1.6rem;
-}
-
 .footer-content h1 > span {
   color: #92817f;
   font-weight: 400;
+}
+
+.img-empathy {
+  width: 90%;
+  align-self: center;
 }

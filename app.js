@@ -40,3 +40,10 @@ allLinks.forEach(function (link) {
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+function multiplyAndPrint(num1, num2) {
+  const result = num1 * num2;
+  console.log(result);
+}
+
+multiplyAndPrint(2, 3);
