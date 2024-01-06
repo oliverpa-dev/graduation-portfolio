@@ -426,10 +426,10 @@ figcaption > a {
 }
 
 .fonts-text {
+  width: 100%;
   margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4.8rem;
+  display: flex;
+  flex-direction: column;
   color: #fff;
 }
 
@@ -529,4 +529,10 @@ footer {
 .img-empathy {
   width: 90%;
   align-self: center;
+}
+
+.user-flow-flex {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
 }
