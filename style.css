@@ -573,3 +573,19 @@ footer {
   flex-direction: column;
   gap: 1rem;
 }
+
+.center {
+  align-self: center;
+}
+
+.limited-width {
+  max-width: 50rem;
+}
+
+.questions-width {
+  max-width: 300rem;
+}
+
+.new-flow {
+  flex-direction: column;
+}
