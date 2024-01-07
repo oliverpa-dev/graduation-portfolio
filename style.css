@@ -589,3 +589,18 @@ footer {
 .new-flow {
   flex-direction: column;
 }
+
+.flow-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 40rem;
+  gap: 1.5rem;
+}
+
+.flow-text p {
+  color: #a020f0;
+}
+
+.flow-text p span {
+  color: #fff;
+}
