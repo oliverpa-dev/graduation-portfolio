@@ -24,10 +24,6 @@ body {
   cursor: url("./img/capeHero.png"), auto;
 }
 
-.margin-bottom {
-  margin-bottom: 1rem;
-}
-
 .section-home {
   width: 100%;
   height: 100vh;
@@ -164,9 +160,10 @@ ul {
 
 ul li {
   list-style: none;
+  color: #a020f0;
 }
 
-ul li a:link,
+/* ul li a:link,
 ul li a:visited {
   text-decoration: none;
   font-size: 2rem;
@@ -179,7 +176,7 @@ ul li,
 a:visited:hover {
   transition: color 0.3s ease-in-out;
   color: #a020f0;
-}
+} */
 
 ul li a > span {
   color: #a020f0;
@@ -298,8 +295,6 @@ figcaption > a {
 }
 
 .first-text_img-1 {
-  border-radius: 1em;
-  box-shadow: 8px 0px 40px -34px rgba(255, 255, 255, 1);
   align-self: center;
   margin-top: 5rem;
 }
@@ -345,6 +340,10 @@ figcaption > a {
 .figure-img {
   display: flex;
   flex-direction: column;
+}
+
+.figure-img img {
+  width: 100%;
 }
 
 .third-text ul {
@@ -532,7 +531,45 @@ footer {
 }
 
 .user-flow-flex {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 4.8rem;
+}
+
+.user-flow-flex figure img {
+  width: 100%;
+}
+
+.redirect-link {
+  color: #a020f0;
+  font-weight: bold;
+  border-bottom: 1px solid #a020f0;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.redirect-link:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.questions {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.questions span {
+  color: #fff;
+}
+
+.fonts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
