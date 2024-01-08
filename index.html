@@ -35,37 +35,37 @@
     <header class="header">
       <nav>
         <ul>
-          <li>
-            <a href="#preface"><span>01.</span> Preface</a>
+          <li class="top-nav">
+          <a href="#preface"><span>01.</span> Preface</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#summary"><span>02.</span> Summary</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#introduction"><span>03.</span> Introduction</a>
           </li>
-          <li>
-            <a href="#emapthy"><span>04.</span> Empathy</a>
+          <li class="top-nav">
+            <a href="#empathy"><span>04.</span> Empathy</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#define"><span>04.</span> Define</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#ideate"><span>05.</span> Ideate</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#prototype"><span>06.</span> Prototype</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#testing"><span>07.</span> Test</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#development"><span>07.</span> Development</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#advice"><span>08.</span> Advice</a>
           </li>
-          <li>
+          <li class="top-nav">
             <a href="#reflection"><span>09.</span> Reflection</a>
           </li>
         </ul>
@@ -136,7 +136,7 @@
           </div>
         </div>
       </section>
-      <section id="summary" class="section-introduction">
+      <section id="introduction" class="section-introduction">
         <div class="section-introduction_container">
           <div class="introduction_container--text">
             <h1 class="margin-bottom">Introduction</h1>
@@ -175,7 +175,7 @@
           </div>
         </div>
       </section>
-      <section id="empathize" class="section-first-stage">
+      <section id="empathy" class="section-first-stage">
         <div class="section-first-stage_container">
           <h1 id="first">Empathize</h1>
           <div class="third-text">
@@ -1333,9 +1333,22 @@
           </div>
         </div>
       </section>
-      <section id="reflection" class="section-third-stage">
+      <section id="development" class="section-third-stage">
         <div class="section-third-stage_container">
           <h1 id="third">Development</h1>
+          <div class="fonts">
+            <div class="development">
+              <p class="para-desc center">
+                During the development using various technologies such as <span>ReactJS, TypeScript, SCSS,</span> and <span>GitLab</span>. Specifically, I implemented logic to save the entire JSON settings object from the interface to the backend server, typed the entire setup JSON, and created reusable elements for rendering settings. Each setting is represented by a dedicated object, ensuring that any new property added to the object is automatically rendered. To manage global state for settings, dialogs visibility, and <span>JSON fallback</span>, I utilized <span>Redux</span>.
+              </p>
+              <img src="./img/programmer.gif" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="advice" class="section-third-stage">
+        <div class="section-third-stage_container">
+          <h1 id="third">Advice</h1>
           <div class="fonts">
             <div class="fonts-text">
               <div>
@@ -1376,7 +1389,6 @@
           <h1 id="third">Reflection</h1>
           <div class="fonts">
             <div class="fonts-text">
-              <!-- <img src="./img/group-team.png" alt=""> -->
               <div>
                 <p>
                   Throughout the project, we followed Gibbs' Reflective Cycle to
