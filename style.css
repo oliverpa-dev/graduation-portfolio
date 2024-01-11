@@ -602,7 +602,7 @@ footer {
 }
 
 .flow-text p span {
-  color: #fff;
+  color: #ccc;
 }
 
 .development {
@@ -629,5 +629,17 @@ footer {
 }
 
 .figcaption-color {
+  color: #fff;
+}
+
+.para-bold {
+  font-weight: bold;
+}
+
+.para-bold span {
+  font-weight: 400;
+}
+
+.para-bold span strong {
   color: #fff;
 }
