@@ -505,6 +505,7 @@ footer {
 }
 
 .footer-content {
+  font-size: 1rem;
   padding: 3rem 0;
   display: flex;
   justify-content: center;
@@ -513,6 +514,7 @@ footer {
   margin: 0 auto;
   max-width: 176rem;
   gap: 1.5rem;
+  color: #a020f0;
 }
 
 .footer-content_icons {
@@ -521,7 +523,7 @@ footer {
 }
 
 .footer-content h1 > span {
-  color: #92817f;
+  color: #fff;
   font-weight: 400;
 }
 
