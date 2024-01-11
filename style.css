@@ -643,3 +643,7 @@ footer {
 .para-bold span strong {
   color: #fff;
 }
+
+.img-border {
+  border-radius: 0.3rem;
+}
