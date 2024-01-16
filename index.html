@@ -147,8 +147,7 @@
               state of settings and the nuanced needs of the target audience
               lays the foundation for the subsequent phases. Transitioning to
               the Define phase, the portfolio distills key findings derived from
-              meticulous observations and interviews into a concise and
-              insightful summary.
+              meticulous observations and interviews.
             </p>
             <p>
               The journey advances to the Ideate phase, where a panoramic view
@@ -161,11 +160,7 @@
               of a prototype.
             </p>
             <p>
-              In the Testing phase, a comprehensive review of usability analysis
-              unfolds, prompting iterations through the prototype.
-              Simultaneously, a MoSCoW analysis is crafted, delineating the
-              elements earmarked for implementation in the interface and
-              establishing their priorities.
+              In the Testing phase, a comprehensive review of usability analysis unfolds, prompting iterations through the prototype. Simultaneously, a MoSCoW analysis is crafted, delineating the elements earmarked for implementation in the interface and establishing their priorities. In the end, the final iteration is done before moving to the development stage..
             </p>
             <p>
               Concluding with insights and counsel, the portfolio wraps up by
@@ -943,7 +938,7 @@
               </figure>
               <div class="center">
                 <p class="para-desc">
-                   The analysis helped me to prioritize what's <span>crucial</span> for the prototype (Figure 7). Must-haves include a <span>interface</span>, and useful functions like <span>saving settings</span>. Should-haves enhance usability, while could-haves allow more customization. Will-not-haves, like onboarding options, clarify what won't be included to stay focused on priorities.
+                  The project's key focus is the ease of use, featuring a user-friendly interface with essential components—buttons, switches, checkboxes, and dropdowns—avoiding complex animations. Core features include a preview option, user roles, consistent colors, and efficient navigation with a sidebar. Should-have elements prioritize usability enhancements like interface switching, search, sub-setting filters, and color-coded social media indicators. Additionally, customizable social media publishing is a potential feature. The will-not-have category, excluding items like onboarding, ensures a sharp focus on top priorities. Rooted in usability testing insights, this Moscow analysis strategically aligns development with user preferences for a streamlined and effective approach.
                    <a
                    class="redirect-link"
                    href="#"
@@ -1154,7 +1149,7 @@
           <div class="conclusion">
             <h3>Conclusion of the Testing phase</h3>
             <p class="para-desc">
-              Testing sessions revealed a successful implementation of the interface with seamless execution and user-friendly features. <span>Recognition for the flexibility of the customization toggle contrasted with feedback, indicating a need for clearer navigation.</span> Refining interface terminology was suggested. Despite minor challenges in locating options, <span>the overall response remained positive</span>, with valuable suggestions for <span>improving the interface</span>. Participants commended enhancements in Sidebar visibility, contributing to a more user-centric experience. These insights informed significant updates, aiming to enhance user experience and streamline functionality.
+              Testing sessions revealed a successful implementation of the interface with seamless execution and user-friendly features. <span>Recognition for the flexibility of the customization toggle contrasted with feedback, indicating a need for clearer navigation.</span> Refining interface terminology was suggested. Despite minor challenges in locating options, <span>the overall response remained positive</span>, with valuable suggestions for <span>improving the interface</span>. Participants commended enhancements in Sidebar visibility, contributing to a more user-centric experience.
             </p>
           </div>
         </div>
@@ -1165,13 +1160,14 @@
           <figure style="display: flex; flex-direction: column;" class="">
             <img class="img-width center" src="./img/MOSCOWdevelopment.png" alt="">
             <figcaption class="figcaption-color">
-              Figure 12. MoSCoW Analysis of the functionalities and pages for the development phase.
+              Figure 12. MoSCoW Analysis of the functionalities and pages for the development phase. Created together with the stakeholder.
             </figcaption>
           </figure>
           <div class="fonts">
             <div class="development">
               <p class="para-desc center">
-                During the development using various technologies such as <span>ReactJS, TypeScript, SCSS,</span> and <span>GitLab</span>. Specifically, I <span>implemented logic to save the entire JSON settings object</span> from the interface to the backend server, typed the entire setup JSON, and <span>created reusable elements for rendering settings</span>. Each setting is represented by a dedicated object, ensuring that any new property added to the object is automatically rendered. <span>To manage global state for settings, dialogs visibility, and JSON fallback I utilized Redux.</span>
+                I began by writing type-safe code and implementing TypeScript types for the entire JSON setup. <span>Achieved dynamic rendering of settings using reusable React components, employing intricate logic for the automatic rendering of new settings options.</span> Faced challenges in integrating with Material UI, requiring adjustments in the data for seamless alignment. Employed Redux to oversee three global states—Settings Data, Dialog Visibility, and JSON Fallback—ensuring scalability and maintainability. <span>Tackled challenges in setting up Redux states with guidance from the company's supervisor, guaranteeing effective implementation and integration with components.</span>
+                <a class="redirect-link" onclick="window.open('./documents/Development.pdf', '_blank', 'fullscreen=yes'); return false;" href="">Read more...</a>
               </p>
               <img src="./img/programmer.gif" alt="">
             </div>
